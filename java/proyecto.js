@@ -70,5 +70,6 @@ Swal.fire({
  });
  });
 
-
-
+ /*Esto último ".then" lo tuve que buscar después de probar mil cosas sin encontrar el error,
+  pq no me cargaba los datos, me mostraba el sweet alert y se borraban los datos
+ del formulario antes de enviarse, ya que tenia el codigo formulario.reset();*/
